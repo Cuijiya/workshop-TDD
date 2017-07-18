@@ -1,0 +1,117 @@
+'use strict';
+
+describe('getOutput',() => {
+    it('Return 0A0B',()=>{
+            let numStr = '5678'
+            var output = getOutput(numStr)
+            let expectedOutput = '0A0B'
+            expect(output).toEqual(expectedOutput)
+        }
+    )
+
+    it('Return 0A1B',()=>{
+            let numStr = '6178'
+            var output = getOutput(numStr)
+            let expectedOutput = '0A1B'
+            expect(output).toEqual(expectedOutput)
+        }
+    )
+
+
+    it('Return 0A2B',()=>{
+            let numStr = '2178'
+            var output = getOutput(numStr)
+            let expectedOutput = '0A2B'
+            expect(output).toEqual(expectedOutput)
+        }
+    )
+
+    it('Return 0A3B',()=>{
+            let numStr = '2173'
+            var output = getOutput(numStr)
+            let expectedOutput = '0A3B'
+            expect(output).toEqual(expectedOutput)
+        }
+    )
+
+    it('Return 0A4B',()=>{
+            let numStr = '4321'
+            var output = getOutput(numStr)
+            let expectedOutput = '0A4B'
+            expect(output).toEqual(expectedOutput)
+        }
+    )
+
+    it('Return 1A0B',()=>{
+            let numStr = '1678'
+            var output = getOutput(numStr)
+            let expectedOutput = '1A0B'
+            expect(output).toEqual(expectedOutput)
+        }
+    )
+
+    it('Return 1A1B',()=>{
+            let numStr = '1378'
+            var output = getOutput(numStr)
+            let expectedOutput = '1A1B'
+            expect(output).toEqual(expectedOutput)
+        }
+    )
+
+    it('Return 1A2B',()=>{
+            let numStr = '1328'
+            var output = getOutput(numStr)
+            let expectedOutput = '1A2B'
+            expect(output).toEqual(expectedOutput)
+        }
+    )
+
+    it('Return 1A3B',()=>{
+            let numStr = '1342'
+            var output = getOutput(numStr)
+            let expectedOutput = '1A3B'
+            expect(output).toEqual(expectedOutput)
+        }
+    )
+
+    it('Return 2A0B',()=>{
+            let numStr = '1278'
+            var output = getOutput(numStr)
+            let expectedOutput = '2A0B'
+            expect(output).toEqual(expectedOutput)
+        }
+    )
+
+    it('Return 2A1B',()=>{
+            let numStr = '1248'
+            var output = getOutput(numStr)
+            let expectedOutput = '2A1B'
+            expect(output).toEqual(expectedOutput)
+        }
+    )
+
+    it('Return 2A2B',()=>{
+            let numStr = '1243'
+            var output = getOutput(numStr)
+            let expectedOutput = '2A2B'
+            expect(output).toEqual(expectedOutput)
+        }
+    )
+
+    it('Return 3A0B',()=>{
+            let numStr = '1238'
+            var output = getOutput(numStr)
+            let expectedOutput = '3A0B'
+            expect(output).toEqual(expectedOutput)
+        }
+    )
+
+    it('Return 4A0B',()=>{
+            let numStr = '1234'
+            var output = getOutput(numStr)
+            let expectedOutput = '4A0B'
+            expect(output).toEqual(expectedOutput)
+        }
+    )
+
+})
